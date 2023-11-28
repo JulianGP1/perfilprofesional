@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendiendo js</title>
+    
+</head>
+<body onload="load_page()">
+  
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <input type="text" id="box_onblur" onblur="box_onblur()" placeholder="Escriba algo" size="30">
+    <button id="change_color">CAMBIAR COLOR</button>
+       <br>
+    <form id="form_register">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres"  placeholder="ingrese nombres">
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos"  placeholder="Ingrese apellidos">
+        <br>
+        <button type="submit">REGISTRARSE</button>
+        <button type="reset">LIMPIAR</button>
+    </form>
+    <script src="../js/functions.js"></script>
+</body>
+</html>
